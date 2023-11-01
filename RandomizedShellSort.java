@@ -63,14 +63,16 @@ public class RandomizedShellSort {
     
 
     try{ 
-        // int length = 512;
-        // int length = 8192;
-        int length = 65536;
+        int length = 512;
+        // // int length = 8192;
+        // int length = 65536;
         int[] intArray = new int[length];
         String line;
         BufferedReader in;
 
-        in = new BufferedReader(new FileReader("output3.txt"));
+        in = new BufferedReader(new FileReader("output1.txt"));
+        // in = new BufferedReader(new FileReader("reversed1.txt"));
+        // in = new BufferedReader(new FileReader("sorted1.txt"));
         line = in.readLine();
         int counter = 0;
         while(line != null)
