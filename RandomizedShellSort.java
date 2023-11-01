@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.io.*;
 import java.util.Random;
 
-public class randomizedShellSortShellSort {
+public class RandomizedShellSort {
     public static final int C=1; // number of region compare-exchange repetitions
     public static void exchange(int[ ] a, int i, int j) {
         int temp = a[i];
