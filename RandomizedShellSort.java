@@ -71,17 +71,17 @@ public class RandomizedShellSort {
         BufferedReader in;
 
         // in = new BufferedReader(new FileReader("output3.txt"));
-        // in = new BufferedReader(new FileReader("reversed3.txt"));
-        in = new BufferedReader(new FileReader("sorted3.txt"));
+        in = new BufferedReader(new FileReader("reversed3.txt"));
+        // in = new BufferedReader(new FileReader("sorted3.txt"));
         line = in.readLine();
         int counter = 0;
         while(line != null)
         {
-                intArray[counter] = Integer.parseInt(line);
-                line = in.readLine();
+            intArray[counter] = Integer.parseInt(line);
+            counter++;
+            line = in.readLine();
         }
         in.close();
-
         
         // Sort the copy in ascending order
         

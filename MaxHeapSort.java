@@ -79,6 +79,7 @@ public class MaxHeapSort {
 			{
 				   intArray[counter] = Integer.parseInt(line);
 				   line = in.readLine();
+				   counter++;
 			}
 			in.close();
 
